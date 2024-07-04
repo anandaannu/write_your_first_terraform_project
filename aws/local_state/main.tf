@@ -14,11 +14,11 @@ provider "aws" {
 }
 
 resource "aws_instance" "app_server" {
-  ami           = "ami-830c94e3"
+  ami           = "ami-04a81a99f5ec58529"
   instance_type = "t2.micro"
 
   tags = {
-    Name = "Terraform_Demo"
+    Name = "Terraform"
   }
 }
 
